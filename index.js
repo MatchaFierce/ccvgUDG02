@@ -21,7 +21,8 @@ window.addEventListener( 'resize', () => {
 
 // basic cube
 var geometry = new THREE.BoxGeometry( 1, 1, 1)
-var material = new THREE.MeshStandardMaterial( { color: 0xFFC0A8, flatShading: true, metalness: 0, roughness: 1 })
+var material = new THREE.MeshStandardMaterial( { color: 0xFF7F50, flatShading: true, metalness: 0, roughness: 1 })
+
 var cube = new THREE.Mesh ( geometry, material )
 scene.add( cube )
 
